@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+		<bean id ="HandlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
+		<bean name ="/index.html" class="com.controller.EntryPoint" />
+		<bean id ="ViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" />
+</beans> 
+
+ 
